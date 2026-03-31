@@ -20,7 +20,7 @@ import android.widget.TextView
 import com.example.smartkeyboard.R
 import java.util.Locale
 import kotlin.math.roundToInt
-
+//my personal keyboard
 class MyKeyboardService : InputMethodService() {
 
     private enum class KeyboardMode {
