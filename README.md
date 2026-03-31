@@ -43,7 +43,6 @@ This project focuses on improving text editing efficiency by giving users direct
 ## 📱 Screenshots
 
 ![1](https://github.com/user-attachments/assets/047a1a55-2122-4f17-80ce-784c76998802)
-
 ![2](https://github.com/user-attachments/assets/705cc717-9a5d-43c3-93c9-52930eaf4c6e)
 ![3](https://github.com/user-attachments/assets/2a0b62a6-905b-405f-a0a1-51a91bf2704e)
 ![4](https://github.com/user-attachments/assets/679cf0de-b024-48bd-870a-4f919e974217)
@@ -57,7 +56,7 @@ This project focuses on improving text editing efficiency by giving users direct
 2. Install on your Android device
 3. Enable the keyboard:
 
-   * Go to **Settings → Languages & Input → Keyboards**
+   * Settings → Languages & Input → Keyboards
    * Enable **Smart Keyboard**
 4. Select it as your default keyboard
 
@@ -68,7 +67,7 @@ This project focuses on improving text editing efficiency by giving users direct
 * Kotlin
 * Android InputMethodService (IME)
 * Custom XML UI
-* SharedPreferences (for settings)
+* SharedPreferences
 
 ---
 
@@ -77,7 +76,40 @@ This project focuses on improving text editing efficiency by giving users direct
 * Uses `InputMethodService` to create a custom keyboard
 * Handles input via `InputConnection`
 * Implements suggestion system using dictionary matching
-* Provides custom UI with dynamic layouts and controls
+* Custom UI with dynamic layouts
+
+---
+
+## 🤝 Contributing (Start Here 🚀)
+
+This project is **open for contributors**, especially beginners who want to learn:
+
+* Android development
+* Custom keyboard (IME)
+* Real Git + GitHub workflow
+
+👉 Please read: **CONTRIBUTING.md**
+
+---
+
+### 💡 Beginner-Friendly Tasks
+
+If you're new, start with:
+
+* Improve UI layout
+* Add new emojis
+* Fix small bugs
+* Improve suggestion logic
+* Add dark mode
+
+---
+
+## 🧪 Development Workflow
+
+feature → dev → main
+
+* All changes go to `dev`
+* `main` is stable production
 
 ---
 
@@ -85,17 +117,16 @@ This project focuses on improving text editing efficiency by giving users direct
 
 * Suggestion system is basic (no AI yet)
 * Dictionary size is limited
-* Some performance optimizations (threading) are planned
+* Performance improvements needed
 
 ---
 
 ## 🚀 Future Improvements
 
-* Background-thread dictionary processing
 * AI-based predictions
-* Improved UI/UX polish
 * Gesture typing
-* Custom themes
+* Better UI/UX
+* Multi-language support
 
 ---
 
@@ -111,12 +142,16 @@ To combine the simplicity of mobile keyboards with the power of desktop editing 
 
 ---
 
-## 👨‍💻 Author
+## ⭐ Support & Contribute
 
-**Ajay Singh Mehta**
+If you like this project:
+
+* ⭐ Star the repo
+* 🍴 Fork it
+* 🧑‍💻 Contribute
 
 ---
 
-## ⭐ If you like this project
+## 👨‍💻 Author
 
-Give it a ⭐ on GitHub and share your feedback!
+**Ajay Singh Mehta**
